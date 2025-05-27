@@ -13,18 +13,18 @@ Bunun için SQL Server kurulu bir sisteme ve SSMS yani "SQL Server Management St
 SQL Server kurulumu için [BTK AKADEMİ: Uygulamalarla SQL Öğreniyorum](https://www.btkakademi.gov.tr/portal/course/uygulamalarla-sql-ogreniyorum-8249) bağlantısından "2. Kurulumlar"sekmesinde ki ilk bölümden "3.SQL Bağlantısı ve Veritabanı oluşturma" sekmesinin sonuna kadar izlendiği taktirde başarıyla tamamlayabilirsiniz.
 
     -- Veritabanı oluşturma
-    CREATE DATABASE PersonelVeriTabani;
+    create database PersonelVeriTabani;
 
     -- Veritabanını kullanma
-    USE PersonelVeriTabani;
+    use PersonelVeriTabani;
 
     -- Tbl_Personel tablosunu oluşturma
-    CREATE TABLE Tbl_Personel (
-        PersonelId INT PRIMARY KEY IDENTITY(1,1),
-        PerAd NVARCHAR(50),
-        PerSoyad NVARCHAR(50),
-        PerSehir NVARCHAR(50),
-        PerMaas DECIMAL(10, 2),
-        PerDurum BIT,
-        PerMeslek NVARCHAR(50)
+    create table Tbl_Personel (
+        PersonelId int primary key identity(1,1),
+        PerAd nvarchar(max),
+        PerSoyad nvarchar(max),
+        PerSehir nvarchar(max),
+        PerMaas int,
+        PerDurum nvarchar(max),
+        PerMeslek nvarchar(max)
     );

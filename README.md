@@ -28,3 +28,21 @@ SQL Server kurulumu için [BTK AKADEMİ: Uygulamalarla SQL Öğreniyorum](https:
         PerDurum nvarchar(max),
         PerMeslek nvarchar(max)
     );
+Aşağıdaki Querry ile örnek veriseti oluşturabilirsiniz.
+
+    INSERT INTO Tbl_Personel (PerAd, PerSoyad, PerSehir, PerMaas, PerDurum, PerMeslek)
+    VALUES 
+        ('Ahmet', 'Yılmaz', 'İstanbul', 7500, '1', 'Mühendis'),
+        ('Ayşe', 'Kara', 'Ankara', 6000, '0', 'Öğretmen'),
+        ('Mehmet', 'Demir', 'İzmir', 5500, '1', 'Doktor'),
+        ('Fatma', 'Çelik', 'Bursa', 8000, '0', 'Bankacı'),
+        ('Ali', 'Şahin', 'Adana', 6500, '1', 'Eczacı'),
+        ('Zeynep', 'Öztürk', 'Antalya', 5000, '0', 'Hemşire'),
+        ('Murat', 'Koç', 'Konya', 7000, '1', 'Avukat'),
+        ('Elif', 'Arslan', 'Trabzon', 5200, '0', 'Mimar'),
+        ('Hasan', 'Turan', 'Eskişehir', 6800, '1', 'Yazılımcı'),
+        ('Selin', 'Aydın', 'Mersin', 6200, '0', 'Psikolog');
+
+Huzurlu bir kodlama dileğiyle...
+
+

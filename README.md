@@ -1,4 +1,4 @@
-# Müşteri Kayıt Formu
+# Personel Kayıt Formu
 Visiual Studio 2022 ile "C# Windows Forms (.Net FrameWork)" kullanılarak hazırlanmıştır.
 
 Programın baştan sona anlatım ve yazım videosu müsait zamanda eklenecektir.
